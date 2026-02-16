@@ -69,9 +69,10 @@ The .card container defines perspective:
 .card {
   perspective: 1600px;
 }
-
+```
 The front and back faces are layered using:
 
+```scss
 .front,
 .back {
   position: absolute;
@@ -82,7 +83,7 @@ The front and back faces are layered using:
 .back {
   transform: rotateY(180deg);
 }
-
+```
 
 This ensures smooth 3D flipping without layout shifting.
 
