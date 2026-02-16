@@ -85,22 +85,34 @@ The front and back faces are layered using:
 }
 ```
 
-This ensures smooth 3D flipping without layout shifting.
-
-Design Approach
+## Design Approach
 
 The design emphasizes:
 
-Visual depth using gradients and overlays
-
-Clear typography hierarchy
-
-Structured information layout
-
-Consistent card dimensions
-
-Clean spacing and alignment
-
-Maintainable SCSS architecture
+- Visual depth using gradients and overlays  
+- Clear typography hierarchy  
+- Structured information layout  
+- Consistent card dimensions  
+- Clean spacing and alignment  
+- Maintainable SCSS architecture  
 
 Images are assigned via structured SCSS classes instead of inline styling to keep styling centralized and organized.
+
+---
+
+## Learning Outcomes
+
+Through this task, the following skills were strengthened:
+
+- Understanding CSS 3D rendering behavior  
+- Structuring reusable UI components  
+- Working with SCSS variables and nesting  
+- Handling CSS state-based interactions  
+- Maintaining clean and scalable code  
+- Preparing projects for GitHub deployment  
+
+---
+
+## Author
+
+Arron Pirku
